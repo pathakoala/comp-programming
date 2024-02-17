@@ -3,9 +3,6 @@
 using namespace std;
 
 int main() {
-    freopen("cowtip.in", "r", stdin);
-    freopen("cowtip.out", "w", stdout);
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
