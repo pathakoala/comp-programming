@@ -5,8 +5,7 @@ using namespace std;
 
 
 int main() {
-   freopen("div7.in", "r", stdin);
-   freopen("div7.out", "w", stdout);
+  
 
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
@@ -26,6 +25,7 @@ int main() {
         cur %= 7;
         first[cur] = min(first[cur], i);
         last[cur] =i;
+        cout << first[cur] << " " << last[cur] << "\n";
    }
 
     int r = 0;
