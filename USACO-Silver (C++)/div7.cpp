@@ -5,7 +5,8 @@ using namespace std;
 
 
 int main() {
-  
+   freopen("div7.in", "r", stdin);
+   freopen("div7.out", "w", stdout);
 
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
@@ -15,7 +16,7 @@ int main() {
    int first[7];
    for(int i = 0; i<7; i++){
     first[i] = INT_MAX;
-   }
+   }    
    int last[7];
    int cur = 0;
    for(int i = 1; i<= n; i++) {
